@@ -1,17 +1,15 @@
 {
-  "name": "studija",
-  "type": "project",
-  "license": "proprietary",
-  "description": "studija codas",
-  "homepage": "https://bitbucket.org/soak/soak-flow/src",
-  "authors": [
+
+  "repositories": [
     {
-      "name": "Andrius Gluzeckis",
+      "type": "vcs",
+      "url": "https://github.com/webfactory/symfony.git"
     }
   ],
-  "keywords": [
-    "wordpress",
-    "wp",
-    "wp-config"
-  ]
+
+  "require": {
+    "symfony/symfony": "dev-21-replaceable-configCache as 2.1.3",
+    "symfony/monolog-bundle": "2.1.*"
+  }
+
 }
