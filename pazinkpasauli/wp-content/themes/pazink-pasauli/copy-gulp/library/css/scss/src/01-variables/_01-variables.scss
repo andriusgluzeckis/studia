@@ -1,0 +1,44 @@
+// Variables
+$green--light: #66B032;
+$red--chilly: #C02416;
+$orange: #FC600A;
+$black--lighter: #092834;
+$orange--light: #F7E0D4;
+$blue--darker: #1489B8;
+$white: #fff;
+$black: #000;
+$gold: #d4af38;
+$shokoladine-textas: #8a0a0a;
+$menu-text-color: $white;
+// Bg colors
+$bg-color-1: #97371f;
+$bg-color-2: #f89868;
+$bg-color-3: #fecc99;
+$bg-color-4: #fccacd;
+//$bg-color-1: #247697;
+//$bg-color-2: #4b97f8;
+//$bg-color-3: #76bffe;
+//$bg-color-4: #bfddfc;
+// Font weights
+$regular: 300;
+$medium: 500;
+$bold: 700;
+//Transitions
+$base-timing: .3s;
+$base-easing: ease-out;
+$base-transition: $base-timing $base-easing;
+$base-hover: .2s $base-easing;
+// Page size variables
+// sass-lint:disable variable-name-format
+$xs__min: 380px;
+$sm__min: 600px;
+$md__min: 900px;
+$lg__min: 1025px;
+$xl__min: 1900px;
+$max-width: 1280px;
+$page-width: 1000px;
+
+// Fonts
+$base-font: 'Notera Personal Use Only';
+$sec-font: 'Muli';
+// sass-lint:enable variable-name-format

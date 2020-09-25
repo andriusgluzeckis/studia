@@ -1,0 +1,198 @@
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+  position: relative;
+  width: 50px;
+
+  @include media--over--md {
+    order: 3;
+    width: 80px;
+  }
+}
+
+.burger-menu__anchor {
+  display: block;
+  height: 100%;
+  width: 100%;
+
+  @include media--over--lg {
+
+    &:hover {
+
+      .burger-menu__bar--1 {
+        transform: translate(-4px, -11px) rotate(-15deg);
+      }
+
+      .burger-menu__bar--3 {
+        transform: translate(-4px, 11px) rotate(15deg);
+      }
+    }
+  }
+}
+
+.burger-menu__bar {
+  background-color: $black;
+  height: 3px;
+  margin-bottom: 10px;
+  max-width: 30px;
+  transform-origin: 100% 50%;
+  transition: transform $base-transition, background-color $base-transition;
+  width: 100%;
+}
+
+.menu__active {
+
+  @include  media--over--md {
+    .burger-menu__bar {
+      background-color: $white;
+    }
+  }
+
+  .burger-menu__container {
+
+    .burger-menu__bar--1 {
+      transform: translate(-4px, -11px) rotate(-15deg);
+    }
+
+    .burger-menu__bar--3 {
+      transform: translate(-4px, 11px) rotate(15deg);
+    }
+  }
+}
+
+.burger-menu__bar--outside {
+  transition: opacity $base-hover;
+}
+
+.burger-menu__bar--outside {
+  opacity: 0;
+  position: absolute;
+}
+
+.burger-menu__bar--4 {
+  left: -28px;
+  position: absolute;
+  top: 31px;
+  transform: translate(8px, 12px) rotate(30deg);
+}
+
+.burger-menu__bar--5 {
+  left: -16px;
+  top: 12px;
+  transform: translate(12px, 12px) rotate(45deg);
+}
+
+.burger-menu__bar--6 {
+  left: 3px;
+  top: -2px;
+  transform: translate(12px, 12px) rotate(60deg);
+}
+
+.burger-menu__bar--7 {
+  left: 26px;
+  top: -12px;
+  transform: translate(12px, 12px) rotate(75deg);
+}
+
+.burger-menu__bar--8 {
+  left: 51px;
+  top: -16px;
+  transform: translate(12px, 12px) rotate(90deg);
+}
+
+.burger-menu__bar--9 {
+  left: 76px;
+  top: -13px;
+  transform: translate(12px, 12px) rotate(105deg);
+}
+
+.burger-menu__bar--10 {
+  left: 99px;
+  top: -3px;
+  transform: translate(12px, 12px) rotate(120deg);
+}
+
+.burger-menu__bar--11 {
+  left: 119px;
+  top: 12px;
+  transform: translate(12px, 12px) rotate(135deg);
+}
+
+.burger-menu__bar--12 {
+  left: 134px;
+  top: 32px;
+  transform: translate(12px, 12px) rotate(150deg);
+}
+
+.burger-menu__bar--13 {
+  left: 144px;
+  top: 55px;
+  transform: translate(12px, 12px) rotate(165deg);
+}
+
+.burger-menu__bar--14 {
+  left: 146px;
+  top: 80px;
+  transform: translate(12px, 12px) rotate(180deg);
+}
+
+.burger-menu__bar--15 {
+  left: 143px;
+  top: 104px;
+  transform: translate(12px, 12px) rotate(195deg);
+}
+
+.burger-menu__bar--16 {
+  left: 133px;
+  top: 127px;
+  transform: translate(12px, 12px) rotate(210deg);
+}
+
+.burger-menu__bar--17 {
+  left: 118px;
+  top: 147px;
+  transform: translate(12px, 12px) rotate(225deg);
+}
+
+.burger-menu__bar--18 {
+  left: 99px;
+  top: 162px;
+  transform: translate(12px, 12px) rotate(240deg);
+}
+
+.burger-menu__bar--19 {
+  left: 76px;
+  top: 172px;
+  transform: translate(12px, 12px) rotate(255deg);
+}
+
+.burger-menu__bar--20 {
+  left: 51px;
+  top: 174px;
+  transform: translate(12px, 12px) rotate(270deg);
+}
+
+.burger-menu__bar--21 {
+  left: 26px;
+  top: 172px;
+  transform: translate(12px, 12px) rotate(285deg);
+}
+
+.burger-menu__bar--22 {
+  left: 3px;
+  top: 163px;
+  transform: translate(12px, 12px) rotate(300deg);
+}
+
+.burger-menu__bar--23 {
+  left: -17px;
+  top: 147px;
+  transform: translate(12px, 12px) rotate(315deg);
+}
+
+.burger-menu__bar--24 {
+  left: -32px;
+  top: 127px;
+  transform: translate(12px, 12px) rotate(330deg);
+}

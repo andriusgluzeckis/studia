@@ -1,0 +1,38 @@
+.cf7 {
+
+  form {
+    padding: 0 20px;
+    width: 100%;
+
+    @include media--over--md {
+      margin: 0 auto;
+      max-width: 700px;
+    }
+  }
+
+  label {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .wpcf7-text,
+  .wpcf7-textarea {
+    border: 1px solid grey;
+    font-size: 1.8rem;
+    margin-top: 5px;
+    padding: 5px 10px;
+    width: 100%;
+  }
+
+  .wpcf7-submit {
+    appearance: none;
+    border: 1px solid $black;
+    padding: 5px;
+    width: 100%;
+
+    @include media--over--md {
+      width: auto;
+    }
+  }
+}

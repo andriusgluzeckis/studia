@@ -1,0 +1,11 @@
+.wysiwyg {
+  margin-bottom: 30px;
+
+  @include media--over--md {
+    margin-bottom: 0;
+  }
+}
+
+.wysiwyg__content {
+  padding: 0 20px;
+}

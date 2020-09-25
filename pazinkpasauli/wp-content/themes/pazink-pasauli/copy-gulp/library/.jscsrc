@@ -1,0 +1,7 @@
+{
+  "preset": "google",
+  "maximumLineLength": 500,
+  "disallowSpacesInAnonymousFunctionExpression": {
+	"beforeOpeningRoundBrace": true
+  }
+}

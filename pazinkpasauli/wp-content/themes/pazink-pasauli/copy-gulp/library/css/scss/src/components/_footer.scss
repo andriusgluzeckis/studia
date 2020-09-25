@@ -1,0 +1,49 @@
+.footer {
+  border-top: 2px solid $bg-color-1;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.footer__inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px 20px 0;
+}
+
+.footer__copy {
+  text-align: left;
+}
+
+.footer__social {
+
+  a {
+    display: flex;
+    flex-direction: row;
+  }
+  &:hover {
+
+    .footer__fb-title {
+      opacity: 1;
+    }
+  }
+}
+
+.footer__fb-icon {
+  width: 20px;
+  fill: $bg-color-1;
+}
+
+.footer__fb-title {
+  color: $bg-color-1;
+  display: none;
+  margin-left: 10px;
+  opacity: 0;
+  transition: opacity $base-hover;
+
+  @include media--over--md {
+    display: block;
+  }
+}
