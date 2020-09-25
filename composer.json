@@ -1,8 +1,6 @@
 {
   "scripts": {
-    "test": [
-      "test"
-    ]
+    "test": "php"
   }
 
 }
