@@ -62,32 +62,5 @@
     "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
     "brainmaestro/composer-git-hooks": "^2.8",
     "symfony/var-dumper": "^5.0"
-  },
-  "extra": {
-    "installer-paths": {
-      "web/app/mu-plugins/{$name}/": [
-        "type:wordpress-muplugin",
-        "soak/advanced-custom-fields-pro",
-        "soak/soak-image-resize",
-        "wpackagist-plugin/autodescription",
-        "wpackagist-plugin/advanced-forms",
-        "wpackagist-plugin/redis-cache",
-        "wpackagist-plugin/simple-history",
-        "wpackagist-plugin/wp-sentry-integration",
-        "wpackagist-plugin/mailgun"
-      ],
-      "web/app/plugins/{$name}/": [
-        "type:wordpress-plugin"
-      ],
-      "web/app/themes/{$name}/": [
-        "type:wordpress-theme"
-      ]
-    },
-    "wordpress-install-dir": "web/wp",
-    "hooks": {
-      "pre-push": [
-        "composer run test"
-      ]
-    }
   }
 }
