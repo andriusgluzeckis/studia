@@ -90,12 +90,4 @@
       ]
     }
   },
-  "scripts": {
-    "post-root-package-install": [
-      "php -r \"copy('.env.example', '.env');\""
-    ],
-    "test": [
-      "phpcs --standard=PSR2 ./web/app/themes"
-    ]
-  }
 }
