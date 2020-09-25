@@ -1,8 +1,0 @@
-{
-    "http-basic": {
-        "satis.soak.co.uk": {
-            "username": "project-name",
-            "password": "project-password"
-        }
-    }
-}
