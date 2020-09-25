@@ -1,15 +1,8 @@
 {
-
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/webfactory/symfony.git"
-    }
-  ],
-
-  "require": {
-    "symfony/symfony": "dev-21-replaceable-configCache as 2.1.3",
-    "symfony/monolog-bundle": "2.1.*"
+  "scripts": {
+    "test": [
+      "test"
+    ]
   }
 
 }
